@@ -1,0 +1,33 @@
+PODS:
+  - CLImageEditor (0.1.8):
+    - CLImageEditor/Core (= 0.1.8)
+  - CLImageEditor/Core (0.1.8)
+  - FlickrKit (1.0.9)
+  - MBProgressHUD (1.0.0)
+  - Realm (2.4.3):
+    - Realm/Headers (= 2.4.3)
+  - Realm/Headers (2.4.3)
+  - RealmSwift (2.4.3):
+    - Realm (= 2.4.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - CLImageEditor
+  - FlickrKit
+  - MBProgressHUD
+  - RealmSwift
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  CLImageEditor: 0d4d5a14aa317c097418b05b5736fec4b8a90dcf
+  FlickrKit: 79ffaf64a12293ba2b1aa8a2e53a4958cb113256
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
+  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 4ab2f3b7d5c20620b9f59b5c47abd9a0090fa2ef
+
+COCOAPODS: 1.2.0

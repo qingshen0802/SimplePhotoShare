@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FA02341E72FFC10071728A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02331E72FFC10071728A /* AppDelegate.swift */; };
+		84FA02391E72FFC10071728A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FA02371E72FFC10071728A /* Main.storyboard */; };
+		84FA023B1E72FFC10071728A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FA023A1E72FFC10071728A /* Assets.xcassets */; };
+		84FA023E1E72FFC10071728A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FA023C1E72FFC10071728A /* LaunchScreen.storyboard */; };
+		84FA02491E72FFC20071728A /* SimplePhotoShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02481E72FFC20071728A /* SimplePhotoShareTests.swift */; };
+		84FA02541E72FFC20071728A /* SimplePhotoShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02531E72FFC20071728A /* SimplePhotoShareUITests.swift */; };
+		84FA026C1E73017B0071728A /* FlickrLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02671E73017B0071728A /* FlickrLogInViewController.swift */; };
+		84FA026D1E73017B0071728A /* FlickrPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02681E73017B0071728A /* FlickrPhotoViewController.swift */; };
+		84FA026E1E73017B0071728A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02691E73017B0071728A /* MainViewController.swift */; };
+		84FA026F1E73017B0071728A /* PhotoSliderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA026A1E73017B0071728A /* PhotoSliderContentViewController.swift */; };
+		84FA02701E73017B0071728A /* PhotoSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA026B1E73017B0071728A /* PhotoSlideViewController.swift */; };
+		84FA02721E7301850071728A /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02711E7301850071728A /* PhotoCollectionCell.swift */; };
+		84FA02771E73018E0071728A /* DBUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02731E73018E0071728A /* DBUtil.swift */; };
+		84FA02791E73018E0071728A /* FlickrUtilFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02751E73018E0071728A /* FlickrUtilFunctions.swift */; };
+		84FA027A1E73018E0071728A /* GetPhotoUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02761E73018E0071728A /* GetPhotoUtil.swift */; };
+		84FA027F1E7301980071728A /* Gotham-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84FA027B1E7301980071728A /* Gotham-Light.ttf */; };
+		84FA02801E7301980071728A /* Gotham-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84FA027C1E7301980071728A /* Gotham-Thin.ttf */; };
+		84FA02811E7301980071728A /* Gotham-XLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84FA027D1E7301980071728A /* Gotham-XLight.ttf */; };
+		84FA02821E7301980071728A /* MyriadPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84FA027E1E7301980071728A /* MyriadPro-Light.otf */; };
+		84FA02871E7301CB0071728A /* FlickrPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02851E7301CB0071728A /* FlickrPhotoModel.swift */; };
+		84FA02881E7301CB0071728A /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA02861E7301CB0071728A /* PhotoModel.swift */; };
+		9A4B1953C976F28F5CC0978C /* Pods_SimplePhotoShareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0819A68A8E8FF63B5793F2 /* Pods_SimplePhotoShareUITests.framework */; };
+		B10E1E1B256F06C6625EABA9 /* Pods_SimplePhotoShareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70357127883B3967458058 /* Pods_SimplePhotoShareTests.framework */; };
+		F16EDEAA8B886D06661A3DF7 /* Pods_SimplePhotoShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA5B1FA4A00F11D7EECE7E0 /* Pods_SimplePhotoShare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FA02451E72FFC20071728A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA02281E72FFC10071728A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FA022F1E72FFC10071728A;
+			remoteInfo = SimplePhotoShare;
+		};
+		84FA02501E72FFC20071728A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA02281E72FFC10071728A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FA022F1E72FFC10071728A;
+			remoteInfo = SimplePhotoShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37EB35B0C6D0EFFD1ECF196E /* Pods-SimplePhotoShareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoShareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoShareUITests/Pods-SimplePhotoShareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		476A6E14423DE1C9D2E93912 /* Pods-SimplePhotoShareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoShareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoShareTests/Pods-SimplePhotoShareTests.release.xcconfig"; sourceTree = "<group>"; };
+		820A652A2AC0B0180721B926 /* Pods-SimplePhotoShareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoShareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoShareTests/Pods-SimplePhotoShareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84FA02301E72FFC10071728A /* SimplePhotoShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePhotoShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FA02331E72FFC10071728A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84FA02381E72FFC10071728A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FA023A1E72FFC10071728A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84FA023D1E72FFC10071728A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FA023F1E72FFC10071728A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FA02441E72FFC20071728A /* SimplePhotoShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePhotoShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FA02481E72FFC20071728A /* SimplePhotoShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePhotoShareTests.swift; sourceTree = "<group>"; };
+		84FA024A1E72FFC20071728A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FA024F1E72FFC20071728A /* SimplePhotoShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePhotoShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FA02531E72FFC20071728A /* SimplePhotoShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePhotoShareUITests.swift; sourceTree = "<group>"; };
+		84FA02551E72FFC20071728A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FA02671E73017B0071728A /* FlickrLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrLogInViewController.swift; path = ViewControllers/FlickrLogInViewController.swift; sourceTree = "<group>"; };
+		84FA02681E73017B0071728A /* FlickrPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrPhotoViewController.swift; path = ViewControllers/FlickrPhotoViewController.swift; sourceTree = "<group>"; };
+		84FA02691E73017B0071728A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ViewControllers/MainViewController.swift; sourceTree = "<group>"; };
+		84FA026A1E73017B0071728A /* PhotoSliderContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoSliderContentViewController.swift; path = ViewControllers/PhotoSliderContentViewController.swift; sourceTree = "<group>"; };
+		84FA026B1E73017B0071728A /* PhotoSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoSlideViewController.swift; path = ViewControllers/PhotoSlideViewController.swift; sourceTree = "<group>"; };
+		84FA02711E7301850071728A /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCollectionCell.swift; path = ViewCell/PhotoCollectionCell.swift; sourceTree = "<group>"; };
+		84FA02731E73018E0071728A /* DBUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBUtil.swift; path = Util/DBUtil.swift; sourceTree = "<group>"; };
+		84FA02751E73018E0071728A /* FlickrUtilFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrUtilFunctions.swift; path = Util/FlickrUtilFunctions.swift; sourceTree = "<group>"; };
+		84FA02761E73018E0071728A /* GetPhotoUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetPhotoUtil.swift; path = Util/GetPhotoUtil.swift; sourceTree = "<group>"; };
+		84FA027B1E7301980071728A /* Gotham-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Light.ttf"; path = "Resource/Font/Gotham-Light.ttf"; sourceTree = "<group>"; };
+		84FA027C1E7301980071728A /* Gotham-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Thin.ttf"; path = "Resource/Font/Gotham-Thin.ttf"; sourceTree = "<group>"; };
+		84FA027D1E7301980071728A /* Gotham-XLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-XLight.ttf"; path = "Resource/Font/Gotham-XLight.ttf"; sourceTree = "<group>"; };
+		84FA027E1E7301980071728A /* MyriadPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Light.otf"; path = "Resource/Font/MyriadPro-Light.otf"; sourceTree = "<group>"; };
+		84FA02841E7301C30071728A /* SimplePhotoShare_Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SimplePhotoShare_Bridging-Header.h"; path = "Resource/SimplePhotoShare_Bridging-Header.h"; sourceTree = "<group>"; };
+		84FA02851E7301CB0071728A /* FlickrPhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrPhotoModel.swift; path = Model/FlickrPhotoModel.swift; sourceTree = "<group>"; };
+		84FA02861E7301CB0071728A /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoModel.swift; path = Model/PhotoModel.swift; sourceTree = "<group>"; };
+		BB6842F5D141FD954AB07D37 /* Pods-SimplePhotoShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoShare/Pods-SimplePhotoShare.release.xcconfig"; sourceTree = "<group>"; };
+		BE0819A68A8E8FF63B5793F2 /* Pods_SimplePhotoShareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePhotoShareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A2FD7F7BB81F32019F61D9 /* Pods-SimplePhotoShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoShare/Pods-SimplePhotoShare.debug.xcconfig"; sourceTree = "<group>"; };
+		DDA5B1FA4A00F11D7EECE7E0 /* Pods_SimplePhotoShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePhotoShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBAC6568AC64A4141B90C42 /* Pods-SimplePhotoShareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoShareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoShareUITests/Pods-SimplePhotoShareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF70357127883B3967458058 /* Pods_SimplePhotoShareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePhotoShareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FA022D1E72FFC10071728A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16EDEAA8B886D06661A3DF7 /* Pods_SimplePhotoShare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA02411E72FFC20071728A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10E1E1B256F06C6625EABA9 /* Pods_SimplePhotoShareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA024C1E72FFC20071728A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4B1953C976F28F5CC0978C /* Pods_SimplePhotoShareUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FA02271E72FFC10071728A = {
+			isa = PBXGroup;
+			children = (
+				84FA02321E72FFC10071728A /* SimplePhotoShare */,
+				84FA02471E72FFC20071728A /* SimplePhotoShareTests */,
+				84FA02521E72FFC20071728A /* SimplePhotoShareUITests */,
+				84FA02311E72FFC10071728A /* Products */,
+				C1238E9F52489E830E138D91 /* Pods */,
+				BC8853B461455F0035414AC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84FA02311E72FFC10071728A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FA02301E72FFC10071728A /* SimplePhotoShare.app */,
+				84FA02441E72FFC20071728A /* SimplePhotoShareTests.xctest */,
+				84FA024F1E72FFC20071728A /* SimplePhotoShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FA02321E72FFC10071728A /* SimplePhotoShare */ = {
+			isa = PBXGroup;
+			children = (
+				84FA02651E7300D20071728A /* ViewControllers */,
+				84FA02641E7300CA0071728A /* ViewCell */,
+				84FA02631E7300C30071728A /* Util */,
+				84FA02611E7300B90071728A /* Model */,
+				84FA02331E72FFC10071728A /* AppDelegate.swift */,
+				84FA02371E72FFC10071728A /* Main.storyboard */,
+				84FA023A1E72FFC10071728A /* Assets.xcassets */,
+				84FA023C1E72FFC10071728A /* LaunchScreen.storyboard */,
+				84FA023F1E72FFC10071728A /* Info.plist */,
+				84FA02621E7300BD0071728A /* Resource */,
+			);
+			path = SimplePhotoShare;
+			sourceTree = "<group>";
+		};
+		84FA02471E72FFC20071728A /* SimplePhotoShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FA02481E72FFC20071728A /* SimplePhotoShareTests.swift */,
+				84FA024A1E72FFC20071728A /* Info.plist */,
+			);
+			path = SimplePhotoShareTests;
+			sourceTree = "<group>";
+		};
+		84FA02521E72FFC20071728A /* SimplePhotoShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84FA02531E72FFC20071728A /* SimplePhotoShareUITests.swift */,
+				84FA02551E72FFC20071728A /* Info.plist */,
+			);
+			path = SimplePhotoShareUITests;
+			sourceTree = "<group>";
+		};
+		84FA02611E7300B90071728A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84FA02851E7301CB0071728A /* FlickrPhotoModel.swift */,
+				84FA02861E7301CB0071728A /* PhotoModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84FA02621E7300BD0071728A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				84FA02841E7301C30071728A /* SimplePhotoShare_Bridging-Header.h */,
+				84FA02661E7300E80071728A /* Font */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		84FA02631E7300C30071728A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				84FA02731E73018E0071728A /* DBUtil.swift */,
+				84FA02751E73018E0071728A /* FlickrUtilFunctions.swift */,
+				84FA02761E73018E0071728A /* GetPhotoUtil.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		84FA02641E7300CA0071728A /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84FA02711E7301850071728A /* PhotoCollectionCell.swift */,
+			);
+			name = ViewCell;
+			sourceTree = "<group>";
+		};
+		84FA02651E7300D20071728A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84FA02671E73017B0071728A /* FlickrLogInViewController.swift */,
+				84FA02681E73017B0071728A /* FlickrPhotoViewController.swift */,
+				84FA02691E73017B0071728A /* MainViewController.swift */,
+				84FA026A1E73017B0071728A /* PhotoSliderContentViewController.swift */,
+				84FA026B1E73017B0071728A /* PhotoSlideViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84FA02661E7300E80071728A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				84FA027B1E7301980071728A /* Gotham-Light.ttf */,
+				84FA027C1E7301980071728A /* Gotham-Thin.ttf */,
+				84FA027D1E7301980071728A /* Gotham-XLight.ttf */,
+				84FA027E1E7301980071728A /* MyriadPro-Light.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		BC8853B461455F0035414AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5B1FA4A00F11D7EECE7E0 /* Pods_SimplePhotoShare.framework */,
+				EF70357127883B3967458058 /* Pods_SimplePhotoShareTests.framework */,
+				BE0819A68A8E8FF63B5793F2 /* Pods_SimplePhotoShareUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1238E9F52489E830E138D91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1A2FD7F7BB81F32019F61D9 /* Pods-SimplePhotoShare.debug.xcconfig */,
+				BB6842F5D141FD954AB07D37 /* Pods-SimplePhotoShare.release.xcconfig */,
+				820A652A2AC0B0180721B926 /* Pods-SimplePhotoShareTests.debug.xcconfig */,
+				476A6E14423DE1C9D2E93912 /* Pods-SimplePhotoShareTests.release.xcconfig */,
+				EDBAC6568AC64A4141B90C42 /* Pods-SimplePhotoShareUITests.debug.xcconfig */,
+				37EB35B0C6D0EFFD1ECF196E /* Pods-SimplePhotoShareUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FA022F1E72FFC10071728A /* SimplePhotoShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FA02581E72FFC20071728A /* Build configuration list for PBXNativeTarget "SimplePhotoShare" */;
+			buildPhases = (
+				00D1C8B2440EB7C95CDD1C8D /* [CP] Check Pods Manifest.lock */,
+				84FA022C1E72FFC10071728A /* Sources */,
+				84FA022D1E72FFC10071728A /* Frameworks */,
+				84FA022E1E72FFC10071728A /* Resources */,
+				ED08F90A9411D340782375C9 /* [CP] Embed Pods Frameworks */,
+				B0B2FB258655F91EA068954E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePhotoShare;
+			productName = SimplePhotoShare;
+			productReference = 84FA02301E72FFC10071728A /* SimplePhotoShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FA02431E72FFC20071728A /* SimplePhotoShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FA025B1E72FFC20071728A /* Build configuration list for PBXNativeTarget "SimplePhotoShareTests" */;
+			buildPhases = (
+				F3416EBC9E96ECC510FD0A4A /* [CP] Check Pods Manifest.lock */,
+				84FA02401E72FFC20071728A /* Sources */,
+				84FA02411E72FFC20071728A /* Frameworks */,
+				84FA02421E72FFC20071728A /* Resources */,
+				7DC189C75409FF45B1BCD01D /* [CP] Embed Pods Frameworks */,
+				4EBCEF9C38814102DC0F0354 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FA02461E72FFC20071728A /* PBXTargetDependency */,
+			);
+			name = SimplePhotoShareTests;
+			productName = SimplePhotoShareTests;
+			productReference = 84FA02441E72FFC20071728A /* SimplePhotoShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84FA024E1E72FFC20071728A /* SimplePhotoShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FA025E1E72FFC20071728A /* Build configuration list for PBXNativeTarget "SimplePhotoShareUITests" */;
+			buildPhases = (
+				CD48E7771A6D31779F75BAF3 /* [CP] Check Pods Manifest.lock */,
+				84FA024B1E72FFC20071728A /* Sources */,
+				84FA024C1E72FFC20071728A /* Frameworks */,
+				84FA024D1E72FFC20071728A /* Resources */,
+				40B809B5CAB811C762342ECA /* [CP] Embed Pods Frameworks */,
+				BA7809687825C10B4A5A1574 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FA02511E72FFC20071728A /* PBXTargetDependency */,
+			);
+			name = SimplePhotoShareUITests;
+			productName = SimplePhotoShareUITests;
+			productReference = 84FA024F1E72FFC20071728A /* SimplePhotoShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FA02281E72FFC10071728A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tsingshen;
+				TargetAttributes = {
+					84FA022F1E72FFC10071728A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					84FA02431E72FFC20071728A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84FA022F1E72FFC10071728A;
+					};
+					84FA024E1E72FFC20071728A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84FA022F1E72FFC10071728A;
+					};
+				};
+			};
+			buildConfigurationList = 84FA022B1E72FFC10071728A /* Build configuration list for PBXProject "SimplePhotoShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FA02271E72FFC10071728A;
+			productRefGroup = 84FA02311E72FFC10071728A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FA022F1E72FFC10071728A /* SimplePhotoShare */,
+				84FA02431E72FFC20071728A /* SimplePhotoShareTests */,
+				84FA024E1E72FFC20071728A /* SimplePhotoShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FA022E1E72FFC10071728A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA02811E7301980071728A /* Gotham-XLight.ttf in Resources */,
+				84FA023E1E72FFC10071728A /* LaunchScreen.storyboard in Resources */,
+				84FA02821E7301980071728A /* MyriadPro-Light.otf in Resources */,
+				84FA02801E7301980071728A /* Gotham-Thin.ttf in Resources */,
+				84FA027F1E7301980071728A /* Gotham-Light.ttf in Resources */,
+				84FA023B1E72FFC10071728A /* Assets.xcassets in Resources */,
+				84FA02391E72FFC10071728A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA02421E72FFC20071728A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA024D1E72FFC20071728A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D1C8B2440EB7C95CDD1C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40B809B5CAB811C762342ECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePhotoShareUITests/Pods-SimplePhotoShareUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBCEF9C38814102DC0F0354 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePhotoShareTests/Pods-SimplePhotoShareTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC189C75409FF45B1BCD01D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePhotoShareTests/Pods-SimplePhotoShareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B2FB258655F91EA068954E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePhotoShare/Pods-SimplePhotoShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7809687825C10B4A5A1574 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePhotoShareUITests/Pods-SimplePhotoShareUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD48E7771A6D31779F75BAF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED08F90A9411D340782375C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePhotoShare/Pods-SimplePhotoShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3416EBC9E96ECC510FD0A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FA022C1E72FFC10071728A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA02341E72FFC10071728A /* AppDelegate.swift in Sources */,
+				84FA02701E73017B0071728A /* PhotoSlideViewController.swift in Sources */,
+				84FA02791E73018E0071728A /* FlickrUtilFunctions.swift in Sources */,
+				84FA026D1E73017B0071728A /* FlickrPhotoViewController.swift in Sources */,
+				84FA02771E73018E0071728A /* DBUtil.swift in Sources */,
+				84FA026C1E73017B0071728A /* FlickrLogInViewController.swift in Sources */,
+				84FA026E1E73017B0071728A /* MainViewController.swift in Sources */,
+				84FA026F1E73017B0071728A /* PhotoSliderContentViewController.swift in Sources */,
+				84FA02721E7301850071728A /* PhotoCollectionCell.swift in Sources */,
+				84FA027A1E73018E0071728A /* GetPhotoUtil.swift in Sources */,
+				84FA02881E7301CB0071728A /* PhotoModel.swift in Sources */,
+				84FA02871E7301CB0071728A /* FlickrPhotoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA02401E72FFC20071728A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA02491E72FFC20071728A /* SimplePhotoShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA024B1E72FFC20071728A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA02541E72FFC20071728A /* SimplePhotoShareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FA02461E72FFC20071728A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FA022F1E72FFC10071728A /* SimplePhotoShare */;
+			targetProxy = 84FA02451E72FFC20071728A /* PBXContainerItemProxy */;
+		};
+		84FA02511E72FFC20071728A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FA022F1E72FFC10071728A /* SimplePhotoShare */;
+			targetProxy = 84FA02501E72FFC20071728A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FA02371E72FFC10071728A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FA02381E72FFC10071728A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FA023C1E72FFC10071728A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FA023D1E72FFC10071728A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FA02561E72FFC20071728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84FA02571E72FFC20071728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FA02591E72FFC20071728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A2FD7F7BB81F32019F61D9 /* Pods-SimplePhotoShare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplePhotoShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.SimplePhotoShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/Work/Works/SimplePhotoShare/SimplePhotoShare/Resource/SimplePhotoShare_Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84FA025A1E72FFC20071728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6842F5D141FD954AB07D37 /* Pods-SimplePhotoShare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplePhotoShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.SimplePhotoShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/Work/Works/SimplePhotoShare/SimplePhotoShare/Resource/SimplePhotoShare_Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84FA025C1E72FFC20071728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820A652A2AC0B0180721B926 /* Pods-SimplePhotoShareTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplePhotoShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.SimplePhotoShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePhotoShare.app/SimplePhotoShare";
+			};
+			name = Debug;
+		};
+		84FA025D1E72FFC20071728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476A6E14423DE1C9D2E93912 /* Pods-SimplePhotoShareTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplePhotoShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.SimplePhotoShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePhotoShare.app/SimplePhotoShare";
+			};
+			name = Release;
+		};
+		84FA025F1E72FFC20071728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBAC6568AC64A4141B90C42 /* Pods-SimplePhotoShareUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimplePhotoShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.SimplePhotoShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimplePhotoShare;
+			};
+			name = Debug;
+		};
+		84FA02601E72FFC20071728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EB35B0C6D0EFFD1ECF196E /* Pods-SimplePhotoShareUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimplePhotoShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jin.SimplePhotoShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimplePhotoShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FA022B1E72FFC10071728A /* Build configuration list for PBXProject "SimplePhotoShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA02561E72FFC20071728A /* Debug */,
+				84FA02571E72FFC20071728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FA02581E72FFC20071728A /* Build configuration list for PBXNativeTarget "SimplePhotoShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA02591E72FFC20071728A /* Debug */,
+				84FA025A1E72FFC20071728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FA025B1E72FFC20071728A /* Build configuration list for PBXNativeTarget "SimplePhotoShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA025C1E72FFC20071728A /* Debug */,
+				84FA025D1E72FFC20071728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FA025E1E72FFC20071728A /* Build configuration list for PBXNativeTarget "SimplePhotoShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA025F1E72FFC20071728A /* Debug */,
+				84FA02601E72FFC20071728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FA02281E72FFC10071728A /* Project object */;
+}
